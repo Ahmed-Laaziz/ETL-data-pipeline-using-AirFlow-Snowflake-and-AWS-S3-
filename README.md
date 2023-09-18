@@ -54,7 +54,6 @@ The AirFlow DAG runs hourly to check and extract all new data from the PostgreSQ
 
 - ```Dags```: Contains the AirFlow Dag.
 - ```Includes```: Contains the SQL and Python scripts that uses in the AirFlow Dag.
-- ```Output```: Contains screenshots from the AirFlow Dag Output. 
 
 ## Project Output:
 ![Screenshot 2023-05-14 191951](https://i.ibb.co/MsJSLtg/1.png)
