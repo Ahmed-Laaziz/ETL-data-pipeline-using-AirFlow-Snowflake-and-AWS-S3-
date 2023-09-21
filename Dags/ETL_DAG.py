@@ -8,7 +8,7 @@ from datetime import datetime
 import sys
 
 # Ajout du chemin d'accès à des fichiers personnalisés
-sys.path.append('/opt/airflow/includes')
+sys.path.append('/opt/airflow/queries')
 import queries  # Importation des requêtes SQL personnalisées
 from emp_dim_insert_update import join_and_detect_new_or_changed_rows  # Importation d'une fonction personnalisée
 
